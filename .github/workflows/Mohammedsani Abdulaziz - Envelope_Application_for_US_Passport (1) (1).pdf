@@ -1,0 +1,189 @@
+<!DOCTYPE html><html class="no-js" lang="en">
+    <head>
+      <meta charSet="utf-8" />
+      <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="referrer" content="origin" />
+      <meta name="robots" content="NOINDEX, NOIMAGEINDEX, NOFOLLOW" />
+      <meta name="open_id" content="undefined" />
+      <title>Dropbox Paper</title>
+      
+    <link key="apple-touch-icon" rel="apple-touch-icon" sizes="180x180" href="https://paper.dropboxstatic.com/static/img/favicon/apple-touch-icon.png" />
+    <link key="icon" rel="icon" type="image/png" sizes="32x32" href="https://paper.dropboxstatic.com/static/img/favicon/favicon-32.png" />
+    <link key="icon-small" rel="icon" type="image/png" sizes="16x16" href="https://paper.dropboxstatic.com/static/img/favicon/favicon-16.png" />
+    <link key="mask-icon" rel="mask-icon" color="#0061ff" href="https://paper.dropboxstatic.com/static/img/safari-pinned-tab.svg" />
+  
+      <link rel="search" type="application/opensearchdescription+xml" title="Paper" href="/static/opensearch.xml" />
+
+      
+    <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">
+      window.addEventListener('error', function (evt) {
+        if (!evt.target) return;
+
+        var src;
+        if (evt.target.tagName == 'SCRIPT' && evt.target.src) {
+          src = evt.target.src;
+        } else if (evt.target.tagName == 'LINK' && evt.target.rel == 'stylesheet') {
+          src = evt.target.href;
+        } else {
+          return;
+        }
+
+        var img = new Image();
+        img.src = '/ep/internal/api/errors' +
+          '?random=' + Math.random() +
+          '&context=' + encodeURIComponent(navigator.userAgent) +
+          '&message=' + encodeURIComponent("Error loading " + evt.target.tagName.toLowerCase() + ": " + src) +
+          '&extraData=' + encodeURIComponent(JSON.stringify({src: src})) +
+          '&url=' + encodeURIComponent(window.location.href) +
+          '&isLegacyError=true';
+      }, true /* useCapture */);
+    </script>
+  
+
+      
+
+      <link href="https://paper.dropboxstatic.com/static/webpack/production/paper_bundle.af583970a92a710cb59e44c9b6e4f691.cMsPzcgU8I-qFl1N6_jUCVZBYor9ZSTBYvkN3_birvk.css" rel="stylesheet" type="text/css" /><link href="https://paper.dropboxstatic.com/static/webpack/production/paper_noir.91d34a2d4205478d5f43506aae307d1f.06vFx-_S_VYgJrgFlzq8cBxSTbr8wBWKF0yp6XbRAu8.css" rel="stylesheet" type="text/css" /><link href="https://paper.dropboxstatic.com/static/webpack/production/paper_admin~paper_admin_off_view_only~paper_binder~paper_bundle~paper_cloud_docs~paper_dashboard~pap~f3e99300.2ae0f0bcc85740495ac60cc038fc9b37f63f5179.ENedCwZASmceFOqf75tvrS-OfR0wITy7XI4agjklmzE.css" rel="stylesheet" type="text/css" />
+      
+
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">
+        var _pageLoadOnErrorFired = false;
+        window.onerror = function(message, file, line, column, error, isNonPaging) {
+          if (_pageLoadOnErrorFired) return;
+          _pageLoadOnErrorFired = true;
+
+          var img = new Image();
+          img.src = '/ep/internal/api/errors' +
+              '?random=' + Math.random() +
+              '&context=' + encodeURIComponent(navigator.userAgent) +
+              '&message=' + encodeURIComponent(message) +
+              '&file=' + encodeURIComponent(file || '') +
+              '&line=' + encodeURIComponent(line == undefined ? line : '') +
+              '&column=' + encodeURIComponent(column == undefined ? column : '') +
+              '&isLegacyError=' + encodeURIComponent(isNonPaging ? 'true' : '') +
+              '&url=' + encodeURIComponent(window.location.href);
+        };
+      </script>
+
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">
+        var preInitPerf = {
+          data: {},
+          mark: function(tickName, timestamp) {
+            if (typeof timestamp === 'number') {
+              preInitPerf['data'][tickName] = timestamp;
+            } else {
+              if (console['timeStamp']) { console['timeStamp'](tickName); }
+              preInitPerf['data'][tickName] = Date.now();
+            }
+          }
+        }
+
+        // TODO: remove this once the new CSI instrumentation is stable
+        var csi = {
+          data: { tick: {} },
+          tick: function(tick, time) {
+            csi['data'].tick[tick] = time || Date.now();
+          },
+          start: function(time) {
+            csi['data'] = { tick: {} };
+            csi.tick('start', time);
+          }
+        };
+
+        (function(w, d) {
+          csi.perf = w.performance || w.mozPerformance || w.msPerformance || w.webkitPerformance;
+          csi.start(csi.perf && csi.perf.timing ? csi.perf.timing.responseStart : null);
+        })(window, document);
+      </script>
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">
+    __paperConfig = {
+      publicPath: "https:\u002F\u002Fpaper.dropboxstatic.com\u002Fstatic\u002Fwebpack\u002Fproduction\u002F",
+      compressionExtension: "",
+      nonce: "b500dab04f97f69bbb7be3d25207a8eefc1aecf4",
+    };
+  </script>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta name="apple-mobile-web-app-capable" content="yes" /><meta name="mobile-web-app-capable" content="yes" /><meta content='Dropbox Paper' name='title' /><meta content='More than a doc, Dropbox Paper is a flexible workspace that brings people and ideas together.' name='description' />
+
+      
+    <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">
+      try {
+        document.domain = document.domain.split(".").slice(-3).join(".");
+      } catch (ex) {
+        console.log('error setting document.domain: ' + ex);
+      }
+    </script>
+  
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">
+        typeof preInitPerf !== 'undefined' && preInitPerf.mark('head-tag-finished')
+      </script>
+    </head>
+  
+    <body class="  ">
+      <div class="body-wrapper"><div id="mobile-upsell-container"></div></div>
+
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">csi.tick('js-pre-main')</script>
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">typeof preInitPerf !== 'undefined' && preInitPerf.mark('before-clientvars')</script>
+
+      
+  <script type="application/json" id="client-vars-json-tag">
+    {"appVersion":"2ae0f0bcc85740495ac60cc038fc9b37f63f5179","appTime":1655865055000,"tabId":"xZF8qGA20vfwS8QOTBMt","initialDataStoreState":{"data":{"experiments-experiments":{"stormcrowFeatureMap":{"desktop_paper_build_type":"STABLE","paper_android_web_app_v2":"ON","paper_android_web_app_classified_assets":"ON","paper_cloud_docs_migration_filesystem_service":"ON","paper_desktop_indexed_db":"ON","paper_ios_asset_cache":"ON","paper_ios_logout_corrupt_users":"ON","mobile_android_ccpa_preference":"ON","paper_link_meeting_notes_in_dropbox":"ON","paper_mobile_ios_increase_bridge_timeout":"ON","paper_noir_desktop":"ON","paper_user_surveys":"ON","spaces_client_portal":"ON","spaces_meetings_zoom_landing_page":"ON","spaces_lightweight_onboarding":"ON","paper_mobile_comments_caught_up":"ON","paper_native_comments_navigation_android":"ON","paper_native_comments_navigation_ios":"ON","paper_native_editor_formatbar_refresh":"ON","paper_native_one_webview_per_comment":"ON","paper_native_remove_fullscreen_comments_ios":"ON","paper_native_reorder_notifications_tab":"ON","paper_native_reorder_notifications_tab_ios":"ON","paper_native_selection_comment_ui":"ON","paper_native_show_todo_nav_education":"ON","paper_native_show_todo_nav_education_ios":"ON","paper_native_sliding_comment_ui":"ON","paper_native_unread_blue_pill_android":"ON","paper_native_unread_blue_pill_ios":"ON","paper_omnibar":"ON","paper_omnibar_app_commands":"ON","paper_omnibar_doc_commands":"ON","paper_omnibar_list_commands":"ON","paper_tasks_native_parity":"ON","paper_tasks_native_parity_ios":"ON","paper_tasks_native_tab_ios":"ON","paper_tasks_native_tab_part_deux":"ON"}},"debugTools-debugTools":{"activeDebugTools":{}},"settings-settings":{"followEmails":null,"folders":true,"collections":true,"pendingToJoin":[],"skinTone":"","postLinkToNewMeetingNotes":null},"configuration-configuration":{"appVersion":"2ae0f0bcc85740495ac60cc038fc9b37f63f5179","appTime":1655865055000,"boltSubscribeUrl":"https:\u002F\u002Fbolt.dropbox.com\u002Fnotify\u002Fsubscribe","cdn":"https:\u002F\u002Fpaper.dropboxstatic.com","colorPalette":["#d54e45","#c06131","#9c752b","#808027","#668628","#498a29","#2d8d29","#2d8c49","#2c8b69","#2d8888","#3084af","#5777d3","#7e6bdd","#9064da","#ab56d4","#cd36cd","#d0449f","#d34b72"],"debugEnabled":false,"enableErrorCatching":true,"hackpadUrl":"https:\u002F\u002Fhackpad.com\u002F","dotNewDomain":"paper.new","dropboxDomainAPI":"api.dropbox.com","dropboxDomainBlockServer":"dl-web.dropbox.com","dropboxDomainWWW":"www.dropbox.com","dropboxUserContentDomainDl":"dl.dropboxusercontent.com","iframeEmbedDomain":"paperusercontent.com","magicCropIframeEmbedDomain":"crop.paperusercontent.com","isMobile":false,"isProductionProduction":true,"s3BucketRoot":"s3.amazonaws.com","s3PolicyDomain":"paper.dropbox.com","siteName":"Paper","supportEmailAddress":"paper-support@dropbox.com","webWorkerUrl":"https:\u002F\u002Fpaper.dropbox.com\u002Fstatic\u002Fprecompiled\u002Fprod\u002Fsyntax_highlighting_web_worker.js","recorderWebWorkerUrl":"https:\u002F\u002Fpaper.dropbox.com\u002Fstatic\u002Fprecompiled\u002Fprod\u002Frecorder_web_worker.js","syntaxHighlightingWebWorkerUrl":"https:\u002F\u002Fpaper.dropbox.com\u002Fstatic\u002Fprecompiled\u002Fprod\u002Fsyntax_highlighting_web_worker.js","fuzzySearchWebWorkerUrl":"https:\u002F\u002Fpaper.dropbox.com\u002Fstatic\u002Fprecompiled\u002Fprod\u002Ffuzzy_search_web_worker.js","clientEventLogSyncIntervalMS":0,"platform":"web","profsharingCanonicalDomain":"showcase.dropbox.com","paperCanonicalDomain":"paper.dropbox.com","instancePathPrefix":"\u002Fi\u002Fnuq1c-i-062f68abdc2784de8","xsrfCookieName":"xsrf","dropboxJSCSRFCookieName":"__Host-js_csrf","pslShellUrl":"https:\u002F\u002Fwww.dropbox.com\u002Fpsl\u002Fshell?xframed=1","profsharingMaxItemsPerCollection":200,"nativeClientName":"web","silenceTracksInConsole":false,"rootUrl":"https:\u002F\u002Fpaper.dropbox.com\u002F","integrations":{},"dropboxDomainMarketing":"marketing.dropbox.com","gtmId":"GTM-K8WT2R","urlPrefix":"","userSurveyDomain":"usersurvey.dropbox.com"},"currentUser-currentUser":{"xsrf":"QBxqnFDq9a5dAiV8aGXIoo","hasAccountId":false,"dropboxConnected":false,"encryptedUserId":"","secureUserId":"g.fba88b17455721eb","dropboxUserId":"","isDomainAdmin":false,"isAppAdmin":false,"isDropboxer":null,"isComposerTeam":false,"userEmail":"","userIsGuest":true,"userName":null,"givenName":null,"isCurrentUserBeingAssumed":false,"impersonatorEncryptedAccountId":null,"userPic":"","isTeamManagedByDropbox":true,"hasSeenTutorial":false,"onboardingCompleted":[],"shouldDisplayFastrakMigrationBanner":null,"joinableTeamsVars":null,"notice":null,"timezoneOffsetMinutes":null,"hackpadWorkspace":null,"linkedAccount":null,"notificationsChannelState":null,"geolocatedCountryCode":"YE","encryptedTeamId":null,"teamType":1,"defaultFolderPolicy":"everyone_in_team","teamAdminDisabledPaperCloudDocs":false,"distinctId":"b80598898847d6e2","accountAge":-1,"accountCreatedDate":null,"accountCreationSource":null,"dropboxAccountId":null,"teamAge":null,"teamCreatedDate":null,"userLocale":"en","isPersonalDomainUser":false,"googleLinked":false,"slackLinked":false,"hasLinkedCalendar":false,"isMobileUser":false,"trashRetentionPolicy":30,"paperDesktopAppWasInstalled":false,"isPaperDesktopPolicyEnabled":false,"canDebug":null,"lastTimeWhatsNewPopupClosed":0,"whatsNewPopupOptedOut":false,"pifsMigrationStatus":1,"pifsAutoMigrationDate":null,"isScheduledPifsMigration":false,"dataResidency":1},"emptyPadClientVars-emptyPadClientVars":{"version":10,"secureCreatorId":"","secureOwnerId":"","initialTitle":"Untitled","initialOptions":{"guestPolicy":"link","publicGuestPolicy":"link","folderMemberGuestPolicy":"link"},"padId":"","cloudDocId":null,"fileId":null,"encryptedDomainId":null,"domainDocSharePolicy":"anyone_with_link","isPersonalDomainPad":null,"collab_client_vars":{"historicalAuthorData":{},"collabBaseState":{"zatext":{"attribs":{"0":"|2+2"},"text":{"0":"\n\n"}},"apool":{"nextNum":0,"numToAttrib":{}},"rev":0},"objectStoreBaseState":{"objectCache":{},"objectStoreRev":0},"padId":"","missedChanges":null,"useCollabService":false},"initialUserInfo":{"secureUserId":"g.fba88b17455721eb","dropboxAccountId":null,"name":null,"givenName":null,"surname":null,"email":"","isDeletedOnMeta":null,"isClaimableHackpadPlaceholder":null,"colorId":1,"status":"creator","isOwner":true,"isConnected":true,"userPic":"","permission":"edit","lastViewed":1655911205278,"encryptedTeamId":null,"canPermanentlyDeletePad":false},"invitedUserInfos":[{"secureUserId":"g.fba88b17455721eb","dropboxAccountId":null,"name":null,"givenName":null,"surname":null,"email":"","isDeletedOnMeta":null,"isClaimableHackpadPlaceholder":null,"colorId":1,"status":"creator","isOwner":true,"isConnected":true,"userPic":"","permission":"edit","lastViewed":1655911205278,"encryptedTeamId":null,"canPermanentlyDeletePad":false}],"initialFolderData":null,"deletedPadId":null,"isTrashed":false,"isCloudDoc":false,"isDeleted":false,"lastEditedTime":0,"secureS3PolicyAndSig":null,"audioS3PolicyAndSig":null,"pencilKitS3PolicyAndSig":null,"padType":1,"initialUnreadNotifications":[],"initialNotificationsLastUpdatedTime":0,"padFeatures":{},"spaceId":null,"spacePid":null},"emptyPad-emptyPad":{"localPadId":"","globalRev":0,"currentUserIsCreator":true,"currentUserIsOwner":true,"title":"Untitled","permissionSource":1,"url":null,"docStatus":1,"lastViewedDate":"2022-06-22T15:20:05.278Z","myLastViewedDate":"2022-06-22T15:20:05.278Z","lastActivityDate":"2022-06-22T15:20:05.278Z","lastEditedDate":"2022-06-22T15:20:05.278Z","myLastEditedDate":"2022-06-22T15:20:05.278Z","createdDate":"2022-06-22T15:20:05.278Z","wasEditedByMe":true,"currentUserInvitedDate":null,"currentUserInvitedByUser":null,"activeUsers":[],"isDeleted":false,"isTrashed":false,"isCloudDoc":false,"cloudDocId":null,"fileObjId":null,"isArchived":false,"secureLastEditorId":null,"editors":[],"isFavorite":false,"followPref":0,"sortKey":"","creator":null,"owner":null,"isSearchResult":false,"dataSourceId":null,"invitedUserCount":0,"invitedUserName":null,"lastEditorName":null,"folderData":null,"padType":1,"purgeDate":null}},"types":{"experiments":{"experiments":true},"debugTools":{"debugTools":true},"settings":{"settings":true},"configuration":{"configuration":true},"currentUser":{"currentUser":true},"emptyPadClientVars":{"emptyPadClientVars":true},"emptyPad":{"emptyPad":true}}}}
+  </script>
+  <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">
+    var jsonContent = document.getElementById("client-vars-json-tag").textContent;
+    var clientVars = JSON.parse(jsonContent);
+    window.expectedJSONClientVarsScriptTagLength = 8386;
+  </script>
+  
+
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">
+        if (window.clientVars && clientVars.wasServerRendered) {
+          preInitPerf.mark('timeToView')
+        }
+      </script>
+
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">var streamingClientContextPath = '/comet';
+var streamingClientAcceptableChannelTypes = ['shortpolling', 'streaming'];
+var streamingClientCanUseSubDomains = true;
+var streamingClientCanUseCollabService = true</script>
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/runtime_c4a5e026a17d477ab1b8.cndWeGUnu1FdZstga5VsQ4QiXlg0HBpeiHNo0xIg5T0.js" crossorigin="anonymous"></script>
+    
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/6a9f6dfee2211d99a50c.KhgYounT0EjBzYWX0i-ZfT26dFIUhuu3lABe9HFBaYQ.js" crossorigin="anonymous"></script>
+    
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/a99fc85373de9a9b4da0.tfJEWM6erukvTMW9L8B0MO7z9EB5YnWU2VATb76fJ70.js" crossorigin="anonymous"></script>
+    
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/fe7365389d65401c0fae.yZplz8xqB6H1YpJCLWKYK0sMCCUALUYhQDZwrSnIPAI.js" crossorigin="anonymous"></script>
+    
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/666fe79743cec04b3f96.MZ_iSDyIA6XdQrbBAmR783_nzxREZIZuVfvj2NYkUUE.js" crossorigin="anonymous"></script>
+    
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/4b3514b9a35966f5b793.fA6zow670483L7DbcXmo8kGWyImAPpzF2YINMXNyzUE.js" crossorigin="anonymous"></script>
+    
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/92f524f563592c09f842.i8sHvQn14tatt3gATWSE00Ifvu04vcwQCFu58Lj-Wnw.js" crossorigin="anonymous"></script>
+    
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/abc0ef0411db50e902e1.7Q_LzXzePh_uxTDlpQo5ndYiHTgQLKKgPUJxSMavIAI.js" crossorigin="anonymous"></script>
+    
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/be1a2320bf794840cb8d._OZ3Jr0FAj64LFBuEjaShjQ9BmOxV5FFy-50648SODY.js" crossorigin="anonymous"></script>
+    
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/73ea01365b746526ef73.kKmNcgVGJgd3684blYBKAWfMurbMsmaRqDLngJ0yFcM.js" crossorigin="anonymous"></script>
+    
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/9359576e38adc21e5be8.vx6vrzx2yb-ubtVIE6b_TbCbH597ZUzMq2lc67cMjbk.js" crossorigin="anonymous"></script>
+    
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/63cdf86647926997d9ed.BL7x2wk--WHKVk0KLRQ8jDC2ps7YZLwIaFzCFk2hLWk.js" crossorigin="anonymous"></script>
+    
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://paper.dropboxstatic.com/static/webpack/production/12bc5b979beb147be6e6.3eIrUe_ZWti1s5-EY34ml0PqfXsWxK50DaLFWvymdlE.js" crossorigin="anonymous"></script>
+    <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">
+    if (window.initializeComposer) {
+      typeof preInitPerf !== 'undefined' && preInitPerf.mark('before-initializeComposer()');
+      window.initializeComposer();
+      typeof preInitPerf !== 'undefined' && preInitPerf.mark('after-initializeComposer()');
+    }
+  </script>
+      <script id="dropboxjs" data-app-key="spherpst6ux1mh7" nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4" src="https://www.dropbox.com/static/api/2/dropins.js" async="true" crossorigin="anonymous"></script>
+    
+      
+
+      <script nonce="b500dab04f97f69bbb7be3d25207a8eefc1aecf4">csi.tick('js-post-main')</script>
+
+      <noscript>Please turn on JavaScript to use Spaces in all of its awesomeness. ^_^</noscript>
+      
+    </body>
+  </html>
